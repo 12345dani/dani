@@ -1,0 +1,371 @@
+<html>
+<head>
+    
+    <script src="https://kit.fontawesome.com/28445ba17a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="swiper-bundle.min.css">
+    <script src="jquery-3.6.0.min.js"></script>
+</head>
+
+    <title>
+        testing
+    </title>
+    <link rel ="stylesheet" href="22.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
+    
+    <body>
+<!------home page-------->
+<DIV class="container">
+  <div class="logo">lo<span>go</span></div>
+  
+      <nav id="nav">
+        
+          <ul>    
+             
+              <li><a href="#home"> <i class="fa fa-fw fa-home"></i> Home </a></li> 
+              <li><a href="#about"> <i class="fa fa-id-card-o" aria-hidden="true"> </i> About </a></li>
+             
+           <li><a href="#skills"> <i class="fa-solid fa-gears"></i> Skill </a></li> 
+           <li><a href="#contact"> <i class="fa-solid fa-envelope"></i> Contact </a></li> 
+           
+          </ul>
+         
+      </nav>
+              <div id="home">
+                <div class="hero-img"></div>
+      <div class="maincontent">
+        <h1><b>Welcome To My Portfolio</b></h1>
+          <h3 class="desc">this is my portfo<span>.lio</span> </h3>
+          <ul class="content">
+
+
+             </ul>
+      </div>
+    </div>
+      <!------about page-------->
+       <div id="about">
+        <h1 class="title" width="100px" color="crimson">About Me<hr width="100px" color="crimson"> </h1>
+        <div class="about-content">
+    
+          <div class="img"><img src="photo_2024-04-09_05-06-26.jpg"></div>
+          <div class="text"><p>Hello!!! my name is Daniel Hailu , I'm 3rd year software engineering
+             student this is the portfolio website about me 
+              <span  id="dots" >......</span> <span id="more"> 
+                so if you want any help you can call me any time i'm ready to help you thanks!</span> </p>
+              <button onclick="showfunction()" id="showmore">read more</button>
+      </div>
+      </div>
+       </div>
+
+      <br>
+      <br>
+       <!------------------skill section------->
+<div id="skills">
+
+       <h1 >skill<hr width="70px" color="crimson" ></h1>
+       <section class="skill-bar">
+       
+        <div class="skill">
+        <div class="outer">
+              <div class="inner" >              
+                <div class="number">95%</div>
+              </div>
+              <h2>HTML</h2>
+            </div>
+
+            <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+              <defs>
+                 <linearGradient id="GradientColor">
+                    <stop offset="0%" stop-color="#e91e63" />
+                    <stop offset="100%" stop-color="#673ab7" />
+                 </linearGradient>
+              </defs>
+              <circle cx="80" cy="80" r="70" stroke-linecap="round" />
+      </svg>
+     
+       </div>   
+
+       
+       <div class="skill">
+        <div class="outer">
+              <div class="inner">
+                <div class="number">85%</div>
+              </div>
+             <h2>CSS</h2>
+            </div>
+            
+
+            <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+              <defs>
+                 <linearGradient id="GradientColor">
+                    <stop offset="0%" stop-color="#e91e63" />
+                    <stop offset="100%" stop-color="#673ab7" />
+                 </linearGradient>
+              </defs>
+              <circle class="circle1" cx="80" cy="80" r="70" stroke-linecap="round" />
+      </svg>
+     
+       </div> 
+
+       <div class="skill">
+        <div class="outer">
+              <div class="inner">
+                <div class="number">65%</div>
+              </div>
+              <h2>JAVASCRIPT</h2>
+            </div>
+
+            <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+              <defs>
+                 <linearGradient id="GradientColor">
+                    <stop offset="0%" stop-color="#e91e63" />
+                    <stop offset="100%" stop-color="#673ab7" />
+                 </linearGradient>
+              </defs>
+              <circle class="circle2" cx="80" cy="80" r="70" stroke-linecap="round" />
+      </svg>
+     
+       </div>
+
+       <div class="skill">
+        <div class="outer">
+              <div class="inner">
+                <div class="number">50%</div>
+              </div>
+              <h2>C#</h2>
+            </div>
+
+            <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+              <defs>
+                 <linearGradient id="GradientColor">
+                    <stop offset="0%" stop-color="#e91e63" />
+                    <stop offset="100%" stop-color="#673ab7" />
+                 </linearGradient>
+              </defs>
+              <circle class="circle3" cx="80" cy="80" r="70" stroke-linecap="round" />
+      </svg>
+     
+       </div>
+
+       </section>
+      </div>
+<br>
+<br>
+<br>
+
+<!----------------------- scroll-to-top-button ---------------------------------------------->
+      
+<button  onclick="gototop()" id="scroll-to-top"><i class="fa-solid fa-arrow-up"></i></button>
+
+<!------------------------------------------ Contact section --------------------------------------------------------->
+<h1 >Hire Me <hr width="70px" color="crimson"></h1>
+
+<div id="contact">
+
+  <div class="leftside">
+     <button id="myself"><h2>Contact ? click here!!</h2</button>
+      <br>
+      
+      
+       
+  </div>
+
+  <div id="rightside">
+    <h1>Myself <hr width="70px" color="crimson"></h1>
+    <p>Hello, I am Daniel Hailu and i've just created this Portfolio to show some skill of mine.I built this website with the help of HTML,CSS,JAVASCRIPT Programming Language.</p>
+      <main>,Hope you liked this.</main>
+   <div id="contact-icon"><span id="count"></span></div>
+
+   <div class="detail">
+    <span>ID</span>
+    <span><a>1401119</a></span><br>
+    <br>
+     <span><i class="fa-solid fa-location-dot"></i> Address:</span>
+     <span> <a href="#">Debre Berhan</a></span><br>
+     <br>
+     <span><i class="fa-solid fa-phone"></i> Phone:</span>
+     <span><a href="tel:+251963173142">+251963173142</a></span><br>
+     <br>
+     <span><i class="fa-regular fa-envelope"></i> Email:</span>
+     <span><a href= "https://www.danihailhabt321@gmail.com">danihailhabt321@gmail.com</a></span>
+   </div>  
+  </div>
+
+</div>
+
+<button id="resume">resume</button>
+
+
+<!------------------------------------------ footer --------------------------------------------------------->
+<br>
+<br>
+<div class="footer-top-part" >
+  <img class="footer-img" src="My project.png" height="230px" width="230px">
+      
+  <p>so this is my first portfolio website which includes some features from HTML, CSS and JS .<br><br> THANKS FOR CHECKING  MY PORTFOLIO !!!</p>
+  <div class="footer-content">
+    <ul>
+    <li>Home</li>
+    <li>About</li>
+    
+    <li>Skill</li>
+    <li>Contact</li>
+  </ul>
+ </div>
+  <ul class="socials-footer">
+    <li><a href="https://www.instagram.com"><i class="fa-brands fa-instagram"></i></a> </li>
+    <li><a href="https://github.com/sahanianiket" target="blank">  <i class="fa-brands fa-github"></i></a></li>
+    <li><a href="https://www.linkedin.com"><i class="fa-brands fa-linkedin-in"></i></a></li>
+</ul>
+
+
+</div>
+
+<div class="footer">
+
+  <div class="footer-main-content">
+    <span>Copyright</span>
+    <span>&#169;2022</span>
+    <span>Daniel Hailu</span>
+  </div>
+
+
+  
+</div>
+</DIV> 
+  
+
+<!--------------------------------------------------- javascript part ------------------------------------------------->
+
+<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script>
+//scroll-to-top-function//***********************
+      function gototop(){
+        window.scrollTo({top: 0, behavior: 'smooth'});  
+    }
+
+    let mybttn=document.getElementById("scroll-to-top");
+    let navbar=document.getElementById("nav");  
+
+    
+window.onscroll=function(){scrollfunction()};
+
+function scrollfunction(){
+if(document.body.scrollTop > 20||document.documentElement.scrollTop>20){
+  mybttn.style.display="block";
+  
+navbar.style.top="0";
+navbar.classList.add('fade');
+}
+else{
+  mybttn.style.display="none";
+  navbar.style.top="-50px";
+navbar.classList.remove('fade');
+}
+} 
+
+//read less---read more-function//(about section)***********************
+
+function showfunction(){
+  var x=document.getElementById("dots");
+var y=document.getElementById("showmore");
+var z=document.getElementById("more");
+
+  if(x.style.display==="none"){
+    x.style.display="inline";
+    z.style.display="none"; 
+y.innerHTML="read more";
+  }
+  else{
+    x.style.display="none"; 
+    z.style.display="inline"; 
+    y.innerHTML="read less"; 
+  }
+}
+
+////(contact section like)***********************
+
+var a=0;
+var like=document.getElementById("contact-icon");
+var count=document.getElementById("count");
+like.onclick=function(){
+a++;
+count.innerHTML=a;
+
+}
+
+////(contact section)***********************
+
+var myself=document.getElementById("myself");
+var modal=document.getElementById("rightside");
+var modal1=document.getElementById("rightside1");
+myself.onclick=function(){
+  if(modal.style.display==="none"){
+    modal.style.display="block";
+  }
+  else{
+    modal.style.display="none";
+  }
+}
+    
+////(Scroll smoothly to specific element on page)***********************
+
+$('#about').onclick = function() {
+  $('html, body').animate({
+    scrollTop: $("about").offset().top
+  }, 2000);
+}
+
+$('#portfolio').onclick = function() {
+  $('html, body').animate({
+    scrollTop: $("portfolio").offset().top
+  }, 2000);
+}
+
+$('#skills').onclick = function() {
+  $('html, body').animate({
+    scrollTop: $("skills").offset().top
+  }, 2000);
+}
+
+$('#contact').onclick = function() {
+  $('html, body').animate({
+    scrollTop: $("contact").offset().top
+  }, 2000);
+}
+
+  </script>
+
+</body>
+
+<script>
+
+    var swiper = new Swiper(".mySwiper", {
+      cssMode: true,
+      nav: true,  
+      autoplay: true,
+      autoplayTimeout: 3000,
+      autoplayHoverPause: true,
+      
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      mousewheel: true,
+      keyboard: true,
+      
+    });
+  
+
+
+// JavaScript code
+
+
+</script>
+
+
+
+</html>
